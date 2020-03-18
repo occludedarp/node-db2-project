@@ -13,3 +13,5 @@ router.get('/', (req, res) => {
     res.status(500).json({"message": "error retrieving cars"})
   })
 })
+
+module.exports = router;
